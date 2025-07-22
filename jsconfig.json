@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",                // Required for "paths" to work
+    "paths": {
+      "@/*": ["./*"],              // Use @/ to refer to root-level folders
+      "@actions/*": ["actions/*"]  // Optional: cleaner alias just for actions
+    }
+  }
+}
