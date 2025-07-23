@@ -11,6 +11,7 @@ const nextConfig = {
 
   experimental: {
     serverActions: {
+      enableTracing: false,
       bodySizeLimit: "5mb",
     },
   },
